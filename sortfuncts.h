@@ -1,7 +1,7 @@
 /** 
  * ===========================================================
- * Name: 
- * Section: 
+ * Name: Benjamin Tat
+ * Section: T6 Coffman
  * Project: Bubble / Shell Sorts
  * ===========================================================
  */
@@ -13,12 +13,12 @@
 
 /** -------------------------------------------------------------------
  * @brief - Perform anbubble sort on an array
- * @param numbers - the array to sort
- * @param numbersSize - the size of the array to sort
+ * @param list - the array to sort
+ * @param listSize - the size of the array to sort
  * @pre parameters are populated with proper values
  * @post numbers is sorted
  */
-void bubbleSort(int numbers[], int numbersSize);
+void bubbleSort(int list[], int listSize);
 
 /** -------------------------------------------------------------------
  * @brief Perform a shell sort on a an array
@@ -27,7 +27,7 @@ void bubbleSort(int numbers[], int numbersSize);
  * @pre parameters are populated with proper values
  * @post numbers is sorted
  */
-void shellSort(int numbers[], int numbersSize, int gapValues[], int gapSize);
+void shellSort(int list[], int listSize, int gapValues[], int gapSize);
 
 /** -------------------------------------------------------------------
  * @brief Fills an array with random values between 0 and 29

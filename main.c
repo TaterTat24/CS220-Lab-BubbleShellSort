@@ -1,7 +1,7 @@
 /** 
 * ===========================================================
-* Name: 
-* Section: 
+* Name: Benjamin Tat
+* Section: T6 Coffman
 * Project: Bubble / Shell Sorts
 * ===========================================================
 * Instructions:
@@ -19,7 +19,7 @@ int main() {
 
     // seed random number generator
     srand((unsigned)(time(NULL))); // use for development/debugging
-    //srand(2023); // uncomment for submission
+    srand(2023); // uncomment for submission
 
     // fill the array with random numbers
     fillArray(nums);
